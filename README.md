@@ -22,4 +22,4 @@ You find configurations for the following programs within this repository:
 
 - [vim](de-ch/.vimrc): See [Vim Webpage](https://www.vim.org/)
 - [Jetbrains](de-ch/.ideavimrc): See [IdeaVim](https://www.jetbrains.com/help/idea/using-product-as-the-vim-editor.html)
-- [Obsidian](de-ch/obsidian-vimrc.vim): See [Obsidian for Vim users](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Vim+users)
+- [Obsidian](de-ch/obsidian.vimrc): See [Obsidian for Vim users](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Vim+users)
