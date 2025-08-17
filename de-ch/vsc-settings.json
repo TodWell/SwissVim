@@ -1,0 +1,86 @@
+{
+    "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+         "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": ["ö"],
+        "after": ["i"]
+    },{
+        "before": ["I"],
+        "after": ["1", "2", "k"]
+    },{
+        "before": ["i"],
+        "after": ["k"]
+    }, {
+        "before": ["j"],
+        "after": ["h"]
+    }, {
+        "before": ["k"],
+        "after": ["j"]
+    }, {
+        "before": ["K"],
+        "after": ["1","2","j"]
+    }, {
+        "before": ["l"],
+        "after": ["l"]
+    }, {
+        "before": ["u"],
+        "after": ["I"]
+    },{
+        "before": ["ä"],
+        "after": ["%"]
+    },{
+        "before": ["ü"],
+        "after": ["^"]
+    }, {
+        "before": ["m"],
+        "commands":  ["editor.action.goToDeclaration"] // "editor.action.goToImplementation
+    }, {
+        "before": ["h"],
+        "commands": ["workbench.action.navigateBack"]
+    }, {
+        "before": ["H"],
+        "commands": ["workbench.action.navigateForward"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+     {
+        "before": ["ö"],
+        "after": ["i"]
+    },{
+        "before": ["I"],
+        "after": ["12k"]
+    },{
+        "before": ["i"],
+        "after": ["k"]
+    }, {
+        "before": ["j"],
+        "after": ["h"]
+    }, {
+        "before": ["k"],
+        "after": ["j"]
+    }, {
+        "before": ["K"],
+        "after": ["12j"]
+    }, {
+        "before": ["l"],
+        "after": ["l"]
+    }, {
+        "before": ["u"],
+        "after": ["I"]
+    },{
+        "before": ["ä"],
+        "after": ["%"]
+    }
+  ]
+}
