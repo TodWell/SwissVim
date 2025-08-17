@@ -35,12 +35,18 @@ Plug 'tpope/vim-commentary'
 "map \b <Action>(ToggleLineBreakpoint)
 
 nnoremap i k
+nnoremap I 12k
 nnoremap j h
 nnoremap k j
+nnoremap K 12j
 nnoremap l l
+nnoremap u I
 nnoremap ö i
 nnoremap ä %
-nnoremap m <C-B>
+map m :action GotoDeclaration<CR>
+map h :action Back<CR>
+map H :action Forward<CR>
+map R :action RenameElement<CR>
 
 vnoremap i k
 vnoremap j h
