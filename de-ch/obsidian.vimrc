@@ -4,6 +4,7 @@ nnoremap k j
 nnoremap l l
 nnoremap ö i
 nnoremap ä %
+nnoremap u I
 
 vnoremap i k
 vnoremap j h
