@@ -3,6 +3,8 @@ nnoremap j h
 nnoremap k j
 nnoremap l l
 nnoremap ö i
+nnoremap I 12k
+nnoremap K 12j
 nnoremap ä %
 nnoremap u I
 
